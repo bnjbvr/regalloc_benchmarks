@@ -7,7 +7,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-regalloc = { version = "0.26.0", features = ["enable-serde"] }
+regalloc = { path = "../regalloc.rs/lib", features = ["enable-serde"] }
 criterion = "0.3"
 bincode = "1.2.1"
 serde = "1.0.94"
